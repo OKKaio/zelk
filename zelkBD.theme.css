@@ -17,7 +17,7 @@
 /*--------------COLORS---------------*/
 /*------remove / and * to apply------*/
 /* @import url(https://raw.githack.com/schnensch0/zelk/main/colors/blue.css); */
-/* @import url(https://raw.githack.com/schnensch0/zelk/main/colors/green.css); */
+@import url(https://raw.githack.com/schnensch0/zelk/main/colors/green.css);
 /* @import url(https://raw.githack.com/schnensch0/zelk/main/colors/gray.css); */
 /* @import url(https://raw.githack.com/schnensch0/zelk/main/colors/orange.css); */
 /* @import url(https://raw.githack.com/schnensch0/zelk/main/colors/purple.css); */
@@ -43,7 +43,7 @@
 /*-------------DARK MODE-------------*/
 /*---------------BASIC---------------*/
 .theme-dark {
-  --accent-color: ##2fa158;
+  --accent-color: #2fa158;
   --background-1: #171d20;
   --background-2: #1e2529;
   --background-accent: #1e2529;
@@ -76,11 +76,11 @@
   --background-modifier-accent: transparent;
   --background-message-hover: transparent;
   /* text */
-  --text-normal: var(--accent-color);
+  --text-normal: #e3e3e3;
   --text-positive: var(--text-normal);
   --text-muted: #6d8692;
   --text-link: #edf8fe;
-  --interactive-selected: var(--background-primary);
+  --interactive-selected: var(--accent-color);
   --interactive-active: var(--text-normal);
   --interactive-normal: var(--text-normal);
   --interactive-muted: var(--button-background-active);
